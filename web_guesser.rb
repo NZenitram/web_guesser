@@ -28,7 +28,7 @@ def guess_checker(guess)
     message = "Too low!"
     color = "pink"
   else
-    message = "You got it right!\nThe secret number is #{SECRET_NUMBER}."
+    message = "You're right!\nThe secret number is #{SECRET_NUMBER}."
     color = "green"
   end
 
